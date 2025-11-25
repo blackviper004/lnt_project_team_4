@@ -1,0 +1,34 @@
+The system uses a Raspberry Pi Pico 2 W to monitor electrical power consumption, detect smoke hazards, trigger alerts, and send real-time data to ThingSpeak using Wi-Fi.
+
+Importing Required Libraries:
+
+The following MicroPython libraries are imported:
+
+machine.I2C & Pin → To configure I²C communication and GPIO pins
+
+INA219 → To read voltage, current, and power values
+
+utime → To introduce time delays
+
+urequests → To send data to ThingSpeak using HTTP
+
+network → To connect to Wi-Fi
+
+gc → To perform garbage collection and free memory
+
+This ensures the microcontroller can access sensors, Wi-Fi, and cloud APIs.
+
+Then Network Configuration.
+
+Initiate I2C Bus.
+
+Initializing the INA219 Power Sensor.
+
+Setting Up Smoke Sensor & Buzzer.
+
+WiFi Connection Function.
+
+Sending Data to ThingSpeak.
+
+Main Loop Operation. In this all the sensors are initialized and switched to working state.
+
