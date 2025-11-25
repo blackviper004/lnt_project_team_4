@@ -14,4 +14,6 @@ Hardware:
   
   Circuit Design: Fritzing
 
+  IOT Cloud: ThingSpeak
+
   
